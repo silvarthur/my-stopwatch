@@ -4,7 +4,6 @@ var paused = true;
 
 function startOrStop() {
     if (paused) {
-        console.log('INICIADO');
         interval = setInterval(function() {
             counter = counter += 0.01;
     
@@ -13,8 +12,11 @@ function startOrStop() {
 
         paused = false;
     } else {
-        console.log('PAUSADO');
         clearInterval(interval);
         paused = true;
     }
+}
+
+function reset() {
+    location.reload()
 }
