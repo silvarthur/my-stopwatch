@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset='utf-8'> 
+        <title>My Stopwatch</title>
+        <meta charset='utf-8'>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <div class='container'>
-            <p>STOPWATCH DEMO</p>
+            <p id='header'>Stopwatch Demo</p>
 
             <p id='display'>0.00</p>
 
             <button onclick='startOrStop()'>START/STOP</button>
             <button onclick='reset()'>RESET</button>
-            <button>RECORD TIME</button>
+            <button onclick='recordTime()'>RECORD TIME</button>
 
-            <p>PAST TIMES:</p>
+            <div class='sectionRecordedTimes'>
+                <p id='recordedTimes'>Past Times:</p>
+            </div>
+            
         </div>
 
         <script src='home.js'></script>

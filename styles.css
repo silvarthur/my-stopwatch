@@ -1,0 +1,25 @@
+.container {
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px 0px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(188, 243, 243);
+}
+
+#header {
+    padding: 10px 0px 0px 0px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.sectionRecordedTimes {
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px 0px;
+    border-radius: 10px;
+    background-color: rgb(136, 174, 231);
+}
